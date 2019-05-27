@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37667" started-at="2019-05-27T17:10:29Z" finished-at="2019-05-27T17:11:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37667" started-at="2019-05-27T17:10:29Z" finished-at="2019-05-27T17:11:06Z">
+      <class name="COM.ATITIME.CREATEnewCust.cust">
+        <test-method status="PASS" signature="lunchbrowser()[pri:0, instance:COM.ATITIME.CREATEnewCust.cust@1275dab]" name="lunchbrowser" is-config="true" duration-ms="37521" started-at="2019-05-27T22:40:29Z" finished-at="2019-05-27T22:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method status="SKIP" signature="cu(org.testng.xml.XmlTest)[pri:0, instance:COM.ATITIME.CREATEnewCust.cust@1275dab]" name="cu" duration-ms="0" started-at="2019-05-27T22:41:06Z" finished-at="2019-05-27T22:41:06Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method cu requires 1 parameters but 1 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method cu requires 1 parameters but 1 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cu -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:COM.ATITIME.CREATEnewCust.cust@1275dab]" name="Closebrowser" is-config="true" duration-ms="30" started-at="2019-05-27T22:41:06Z" finished-at="2019-05-27T22:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- COM.ATITIME.CREATEnewCust.cust -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

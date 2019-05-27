@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="tests" >
+  <test  name="Test1">
+  <parameter name="broeser" value="firefox"></parameter>
+    <classes>
+      <class name="COM.ATITIME.CREATEnewCust.cust"/>
+    </classes>
+  </test> 
+  <test  name="Test2">
+  <parameter name="broeser" value="chrome"></parameter>
+    <classes>
+      <class name="COM.ATITIME.CREATEnewCust.cust"/>
+    </classes>
+  </test>
+  <test  name="Test3">
+  <parameter name="broeser" value="IE"></parameter>
+    <classes>
+      <class name="COM.ATITIME.CREATEnewCust.cust"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
